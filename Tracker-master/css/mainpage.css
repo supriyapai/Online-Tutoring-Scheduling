@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size:14px;
+	background-color: #3c3c3c;
+}
+
+
+#container {
+    margin-top: auto;
+	margin-left: auto; margin-right: auto;
+	position: relative;
+    background-color: #eaf3e0;
+	width:1022px;
+	height: 730px;
+}
+
+
+#banner{
+    z-index: 600;
+	left:0px;
+	top:0px;
+	position: absolute;
+	
+}
+
+#line{
+	height:5px;
+	width:1022px;
+    z-index:700;
+	left:0px;
+	top:185px;
+	background-color: #72b63d;
+	position: absolute;
+	
+}
+
+#mainbody{
+	height:550px;
+	width:1022px;
+    z-index: 600;
+	left:0px;
+	top:185px;
+	background-color: #eaf3e0;
+	position: absolute;
+	
+}
+
+
+#adminlogin{
+	height:15px;
+	width:17px;
+    z-index:700;
+	left:840px;
+	top:160px;
+	position: absolute;
+}
+
+#button1{
+	height:78px;
+	width:288px;
+    z-index:700;
+	left:367px;
+	top:340px;
+	position: absolute;
+	cursor:pointer;
+	
+}
+
+#button2{
+	height:78px;
+	width:288px;
+    z-index:700;
+	left:367px;
+	top:433px;
+	position: absolute;
+	cursor:pointer;
+	
+}
+
+#button3{
+	height:78px;
+	width:288px;
+    z-index:700;
+	left:367px;
+	top:526px;
+	position: absolute;
+	cursor:pointer;
+	
+}
+
+#polylogo{
+    z-index:700;
+	left:840px;
+	top:640px;
+	position: absolute;
+	
+}
+
+
+
+#text1{
+    z-index: 800;
+	position: absolute;
+	top: 250px; 
+	left: 436px;	
+	font-size: 20px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	
+}
+
+#text2{
+    z-index: 800;
+	position: absolute;
+	top: 290px; 
+	left: 392px;	
+	font-size: 18px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	
+}
+
+#text3{
+    z-index: 800;
+	position: absolute;
+	top: 159px; 
+	left: 870px;	
+	font-size:16px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	cursor:pointer;
+}
+#signout{
+	height:15px;
+	width:17px;
+    z-index:700;
+	left:840px;
+	top:160px;
+	position: absolute;
+}
+
+a:link {color:black;text-decoration:none;}   
+a:visited {color:black;text-decoration:none;}
+a:hover {color:gray;text-decoration:none;} 
+a:active {color:black;text-decoration:none;} 
+
+
+
+

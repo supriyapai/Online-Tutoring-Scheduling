@@ -1,0 +1,297 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #3c3c3c;
+}
+
+#banner{
+    z-index: 600;
+	left:0px;
+	top:0px;
+	position: absolute;
+	
+}
+
+#signout{
+	height:15px;
+	width:17px;
+    z-index:700;
+	left:840px;
+	top:160px;
+	position: absolute;
+	
+}
+form{
+    z-index: 800;
+	position: absolute;
+	top: 360px; 
+    left: 365px;	
+	line-height:30px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	
+}
+label {
+	float: left; 
+	clear: left; 
+	margin: 0px 0px 0 0; 
+	width: 150px;
+	text-align: left; 
+	font-size: 16px; 
+	color: black; 
+}
+
+input[type="text"] {
+	width: 140px; 
+	height: 30px; 
+	background: white;
+	font-family: sans-serif; 
+	font-size: 13px; 
+	text-align: center;
+	color: gray;
+}
+
+input[type="radio"] {
+	width: 20px; 
+	background: white;
+	font-family: sans-serif; 
+	font-size: 15px; 
+	text-align: center;
+	color: gray;
+}
+
+
+select {
+    width: 140px; 
+	text-align: center;
+	color: black;
+	height: 30px
+}
+
+
+#save{
+	height:28px;
+	width:102px;
+    z-index:700;
+	left:460px;
+	top:560px;
+	position: absolute;
+	cursor:pointer;
+	
+}
+
+#container {
+    margin-top: auto;
+	margin-left: auto; margin-right: auto;
+	position: relative;
+    background-color: #EAF3E0;
+	width:1022px;
+	height: 735px;
+}
+
+#mainbody{
+	height:565px;
+	width:1022px;
+    z-index: 600;
+	left:0px;
+	top:185px;
+	background-color: #eaf3e0;
+	position: absolute;
+	
+}
+
+
+#inputboxbackground{
+	background-image: url(../images/inputboxbackground2.png);
+	background-repeat: repeat-x;
+	height:350px;
+	width:500px;
+    z-index:600;
+	left:261px;
+	top:360px;
+	position: absolute;
+}
+
+
+
+#polylogo{
+    z-index:700;
+	left:840px;
+	top:660px;
+	position: absolute;
+	
+}
+
+#text2{
+    z-index: 800;
+	position: absolute;
+	top: 250px; 
+	left: 400px;	
+	font-size: 18px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	
+}
+
+#text3{
+    z-index: 800;
+	position: absolute;
+	top:159px; 
+	left:870px;	
+	font-size:16px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	cursor:pointer;
+}
+#txthint{
+margin-left: 97px;
+}
+#text3 a:link {color:black;text-decoration:none;}   
+#text3 a:visited {color:black;text-decoration:none;}
+#text3 a:hover {color:gray;text-decoration:none;} 
+#text3 a:active {color:black;text-decoration:none;} 
+
+
+.menu {
+font-family:"Arial",Serif;
+z-index: 900;
+top:185px;
+left:0px;
+width:1050px; 
+position:relative; 
+margin:0; 
+font-size:11px;
+letter-spacing:0.2px;
+}
+
+.menu ul li a, .menu ul li a:visited {
+display:block; 
+text-decoration:none; 
+width:144px; 
+height:30px; 
+text-align:center; 
+color:#fff; 
+border:1px solid #52981a; 
+background-image:url(../images/menubarbg.png);
+background-repeat:repeat-x; 
+line-height:30px; 
+overflow:hidden;
+}
+
+.menu ul {
+padding:0; 
+margin:0;
+list-style-type: none;  
+
+}
+
+.menu ul li {
+float:left; 
+margin-right:0px; 
+position:relative;
+}
+
+.menu ul li ul {
+display: none;
+}
+/* specific to non IE browsers */
+
+.menu ul li:hover a {
+color:#fff; 
+background-image:url(../images/menubarbg2.png);
+background-repeat:repeat-x; 
+}
+
+.menu ul li:hover ul {
+display:block; 
+position:absolute; 
+top:31px; 
+left:0; 
+width:144px;
+
+}
+
+.menu ul li:hover ul li a.hide {
+background-image:url(../images/menubarbg4.png);
+background-repeat:repeat-x;  
+color:#000;
+}
+
+.menu ul li:hover ul li:hover a.hide {
+background:#73b63e; 
+color:#fff;
+}
+
+.menu ul li:hover ul li ul {
+display: none;
+}
+
+.menu ul li:hover ul li a {
+display:block; 
+background-image:url(../images/menubarbg4.png);
+background-repeat:repeat-x; ; 
+color:black;
+}
+
+.menu ul li:hover ul li a:hover {
+background:#73b63e; 
+color:white;
+}
+.menu ul li:hover ul li:hover ul {
+display:block; 
+position:absolute; 
+left:146px; 
+top:0;
+}
+
+#upload{
+	margin-left: -50px;
+}
+
+#confirm{
+	top: 250px;
+	color: blue;
+}
+
+
+/*Edited by: Parul Joshi Dated: 09/03/2015
+Task : to add additional dropdown(Edit Single Session And Edit Multiple Session) to Edit ->Student Tutor Allocation->Session Schedule    */
+
+
+.menu ul li:hover ul li ul li a.hide {
+background-image:url(../images/menubarbg4.png);
+background-repeat:repeat-x;  
+color:#000;
+}
+
+.menu ul li:hover ul li:hover ul li:hover a.hide {
+background:#73b63e; 
+color:#fff;
+}
+
+.menu ul li:hover ul li:hover ul li ul {
+display: none;
+}
+
+.menu ul li:hover ul li:hover ul li a {
+display:block; 
+background-image:url(../images/menubarbg4.png);
+background-repeat:repeat-x; ; 
+color:black;
+}
+
+.menu ul li:hover ul li:hover ul li a:hover {
+background:#73b63e; 
+color:white;
+}
+.menu ul li:hover ul li:hover ul li:hover ul{
+display:block; 
+position:absolute; 
+left:146px; 
+top:0;
+}

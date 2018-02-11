@@ -1,0 +1,120 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size:14px;
+	background-color: #3c3c3c;
+}
+
+#banner{
+    z-index: 600;
+	left:0px;
+	top:0px;
+	position: absolute;
+	
+}
+
+
+#line{
+	height:5px;
+	width:1022px;
+    z-index:700;
+	left:0px;
+	top:185px;
+	background-color: #72b63d;
+	position: absolute;
+	
+}
+
+#cancel{
+	height:28px;
+	width:145px;
+    z-index:700;
+	left:435px;
+	top:367px;
+	position: absolute;
+	cursor:pointer;
+	
+}
+#reschedule{
+	height:28px;
+	width:145px;
+    z-index:700;
+	left:435px;
+	top:412px;
+	position: absolute;
+	cursor:pointer;
+	
+}
+#mainpage2{
+	height:28px;
+	width:145px;
+    z-index:700;
+	left:435px;
+	top:457px;
+	position: absolute;
+	cursor:pointer;
+	
+}
+
+#container {
+    margin-top: auto;
+	margin-left: auto; margin-right: auto;
+	position: relative;
+    background-color: #EAF3E0;
+	width:1022px;
+	height: 675px;
+}
+
+#mainbody{
+	height:490px;
+	width:1022px;
+    z-index: 600;
+	left:0px;
+	top:185px;
+	background-color: #EAF3E0;
+	position: absolute;
+	
+}
+
+
+#inputboxbackground{
+	background-image: url(../images/inputboxbackground2.png);
+	background-repeat: repeat-x;
+	height:205px;
+	width:500px;
+    z-index:600;
+	left:261px;
+	top:325px;
+	position: absolute;
+	
+}
+
+#polylogo{
+    z-index:700;
+	left:840px;
+	top:575px;
+	position: absolute;
+	
+}
+
+#text2{
+    z-index: 800;
+	position: absolute;
+	top: 250px; 
+	left: 385px;	
+	font-size: 18px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	
+}
+
+
+
+
+
+
+

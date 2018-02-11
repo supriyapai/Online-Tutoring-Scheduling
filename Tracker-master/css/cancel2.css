@@ -1,0 +1,201 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size:14px;
+	background-color: #3c3c3c;
+}
+#banner{
+    z-index: 600;
+	left:0px;
+	top:0px;
+	position: absolute;
+	
+}
+
+#line{
+	height:5px;
+	width:1022px;
+    z-index:700;
+	left:0px;
+	top:185px;
+	background-color: #72b63d;
+	position: absolute;
+	
+}
+
+form{
+    z-index: 800;
+	position: absolute;
+	top: 360px; 
+    left: 379px;	
+	line-height:30px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	
+}
+
+label {
+	float: left; 
+	clear: left; 
+	margin: 0px 0px 0 0; 
+	width: 120px;
+	text-align: left; 
+	font-size: 16px; 
+	color: black; 
+}
+
+input[type="text"] {
+	width: 140px; 
+	height: 16px; 
+	background: white;
+	font-family: sans-serif; 
+	font-size: 13px; 
+	text-align: center;
+	color: gray;
+}
+
+select {
+    width: 140px; 
+	text-align: center;
+	color: black;
+}
+
+#submit{
+	height:28px;
+	width:102px;
+    z-index:700;
+	left:390px;
+	top:500px;
+	position: absolute;
+	cursor:pointer;
+	
+}
+
+#back{
+	height:28px;
+	width:102px;
+    z-index:700;
+	left:528px;
+	top:500px;
+	position: absolute;
+	cursor:pointer;
+	
+}
+
+
+#container {
+    margin-top: auto;
+	margin-left: auto; margin-right: auto;
+	position: relative;
+    background-color: #eaf3e0;
+	width:1022px;
+	height: 715px;
+}
+
+#mainbody{
+	height:530px;
+	width:1022px;
+    z-index: 600;
+	left:0px;
+	top:185px;
+	background-color: #EAF3E0;
+	position: absolute;
+	
+}
+
+
+#inputboxbackground{
+	background-image: url(../images/inputboxbackground2.png);
+	background-repeat: repeat-x;
+	height:245px;
+	width:500px;
+    z-index:600;
+	left:261px;
+	top:325px;
+	position: absolute;
+	
+}
+
+#polylogo{
+    z-index:700;
+	left:840px;
+	top:615px;
+	position: absolute;
+	
+}
+
+#mesg1{
+    z-index: 800;
+	position: absolute;
+	color: red;
+	top: 290px; 
+	left: 420px;	
+	font-size: 16px;
+	font-family:"Times New Roman",Georgia,Serif;
+	opacity:1;
+	
+}
+
+#mesg2{
+    z-index: 800;
+	position: absolute;
+	color: red;
+	top: 290px; 
+	left: 210px;	
+	font-size: 16px;
+	font-family:"Times New Roman",Georgia,Serif;
+	opacity:1;
+	
+}
+
+#mesg3{
+    z-index: 800;
+	position: absolute;
+	color: blue;
+	top: 290px; 
+	left: 320px;	
+	font-size: 16px;
+	font-family:"Times New Roman",Georgia,Serif;
+	opacity:1;
+	
+}
+
+
+#text2{
+    z-index: 800;
+	position: absolute;
+	top: 250px; 
+	left: 436px;	
+	font-size: 18px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	
+}
+
+#text3{
+    z-index: 800;
+	position: absolute;
+	top: 285px; 
+	left: 369px;	
+	font-size: 16px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:#004ed0;
+	opacity:1;
+	
+}
+#text4{
+    z-index: 800;
+	position: absolute;
+	top: 290px; 
+	left: 210px;	
+	font-size: 18px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	
+}

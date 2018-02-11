@@ -1,0 +1,399 @@
+/* 
+    Author     : Shyam
+    Description:
+        Style sheet for number by subject report.
+*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #3c3c3c;
+}
+
+ div.ex {
+        width: 600px;
+        height: 400px;
+        top:400px;
+        position: absolute;
+}
+div.back{
+        height:270px;
+        width:500px;
+    z-index:600;
+        left:261px;
+        top:0px;
+        position: absolute;
+        background-color: #d3dacb;
+
+}
+
+div.mesg{
+top:-25px;
+text-align: center;
+color: red;
+left:200px;
+font-family:"Times New Roman",Georgia,Serif;
+font-size:16;
+position: absolute;
+}
+
+
+label {
+	float: left; 
+	clear: left; 
+	margin: 0px 0px 0 0; 
+	width: 120px;
+	text-align: left; 
+	font-size: 16px; 
+	color: black; 
+}
+input[type="text"] {
+	width: 80px; 
+	height: 16px; 
+	background: white;
+	font-family: sans-serif; 
+	font-size: 13px; 
+	text-align: center;
+	color: gray;
+}
+select {
+    width: 100px; 
+	text-align: center;
+	color: black;
+}
+#submit{
+	height:28px;
+	width:102px;
+    z-index:700;
+	left:460px;
+	top:530px;
+	position: absolute;
+	cursor:pointer;
+	
+}
+
+#inputboxbackground{
+	background-image: url(../images/inputboxbackground2.png);
+	background-repeat: repeat-x;
+	height:280px;
+	width:500px;
+    z-index:600;
+	left:261px;
+	top:325px;
+	position: absolute;
+	
+}
+#polylogo{
+    z-index:700;
+	left:840px;
+	top:575px;
+	position: absolute;
+	
+}
+#inputboxbackground_edit-tutor{
+	background-image: url(../images/inputboxbackground2.png);
+	background-repeat: repeat-x;
+	height:580px;
+	width:500px;
+    z-index:600;
+	left:261px;
+	top:325px;
+	position: absolute;
+	
+}
+#text2{
+    z-index: 800;
+	position: absolute;
+	top: 250px; 
+	left: 460px;	
+	font-size: 18px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	
+}
+#container {
+    margin-top: auto;
+	margin-left: auto; margin-right: auto;
+	position: relative;
+    background-color: #EAF3E0;
+	width:1022px;
+	height: 950px;
+}
+#banner{
+    z-index: 600;
+	left:0px;
+	top:0px;
+	position: absolute;
+	
+}
+#signout{
+	height:15px;
+	width:17px;
+    z-index:700;
+	left:840px;
+	top:160px;
+	position: absolute;
+}
+#signout1{
+	
+	height:15px;
+	width:17px;
+    z-index:100;
+	left:1020px;
+	top:70px;
+	position: absolute;
+}
+
+#line{
+	
+	background-color: #72B63D;
+    height: 5px;
+    position: absolute;
+    top: 100px;
+    width: 1024px;
+    z-index: 100;
+	left: 105px;
+}
+#line2 {
+   
+	
+	height:5px;
+	width:1022px;
+        z-index:100;
+	left:100px;
+	top:100px;
+	background-color: #72b63d;
+	position: absolute;
+}
+#text3 {
+    z-index: 800;
+	position: absolute;
+	top:159px; 
+	left:870px;	
+	font-size:16px;
+	font-family:"Times New Roman",Georgia,Serif;
+    color:black;
+	opacity:1;
+	cursor:pointer;
+}
+}
+
+#text4{
+    
+	
+	color: black;
+    cursor: pointer;
+    font-family: "Times New Roman",Georgia,Serif;
+    font-size: 16px;
+    left: 950px;
+    opacity: 1;
+    position: absolute;
+    top: 52px;
+    z-index: 800;
+}
+
+#text3 a:link {color:black;text-decoration:none;}   
+#text3 a:visited {color:black;text-decoration:none;}
+#text3 a:hover {color:gray;text-decoration:none;} 
+#text3 a:active {color:black;text-decoration:none;} 
+
+.menu {
+font-family:"Arial",Serif;
+z-index: 900;
+top:185px;
+left:0px;
+width:1050px; 
+position:relative; 
+margin:0; 
+font-size:11px;
+letter-spacing:0.2px;
+}
+
+.menu ul li a, .menu ul li a:visited {
+display:block; 
+text-decoration:none; 
+width:144px; 
+height:30px; 
+text-align:center; 
+color:#fff; 
+border:1px solid #52981a; 
+background-image:url(../images/menubarbg.png);
+background-repeat:repeat-x; 
+line-height:30px; 
+overflow:hidden;
+}
+
+.menu ul {
+padding:0; 
+margin:0;
+list-style-type: none;  
+
+}
+
+.menu ul li {
+float:left; 
+margin-right:0px; 
+position:relative;
+}
+
+.menu ul li ul {
+display: none;
+}
+/* specific to non IE browsers */
+
+.menu ul li:hover a {
+color:#fff; 
+background-image:url(../images/menubarbg2.png);
+background-repeat:repeat-x; 
+}
+
+.menu ul li:hover ul {
+display:block; 
+position:absolute; 
+top:31px; 
+left:0; 
+width:144px;
+
+}
+
+.menu ul li:hover ul li a.hide {
+background-image:url(../images/menubarbg4.png);
+background-repeat:repeat-x;  
+color:#000;
+}
+
+.menu ul li:hover ul li:hover a.hide {
+background:#73b63e; 
+color:#fff;
+}
+
+.menu ul li:hover ul li ul {
+display: none;
+}
+
+.menu ul li:hover ul li a {
+display:block; 
+background-image:url(../images/menubarbg4.png);
+background-repeat:repeat-x; ; 
+color:black;
+}
+
+.menu ul li:hover ul li a:hover {
+background:#73b63e; 
+color:white;
+}
+.menu ul li:hover ul li:hover ul {
+display:block; 
+position:absolute; 
+left:146px; 
+top:0;
+}
+
+
+/*Edited by: Parul Joshi Dated: 09/03/2015
+Task : to add additional dropdown(Edit Single Session And Edit Multiple Session) to Edit ->Student Tutor Allocation->Session Schedule    */
+
+
+.menu ul li:hover ul li ul li a.hide {
+background-image:url(../images/menubarbg4.png);
+background-repeat:repeat-x;  
+color:#000;
+}
+
+.menu ul li:hover ul li:hover ul li:hover a.hide {
+background:#73b63e; 
+color:#fff;
+}
+
+.menu ul li:hover ul li:hover ul li ul {
+display: none;
+}
+
+.menu ul li:hover ul li:hover ul li a {
+display:block; 
+background-image:url(../images/menubarbg4.png);
+background-repeat:repeat-x; ; 
+color:black;
+}
+
+.menu ul li:hover ul li:hover ul li a:hover {
+background:#73b63e; 
+color:white;
+}
+.menu ul li:hover ul li:hover ul li:hover ul{
+display:block; 
+position:absolute; 
+left:146px; 
+top:0;
+}
+
+.filter
+{
+	  
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 470px;
+  position: absolute;
+  margin: 300px auto auto 275px;
+  padding: 5px;
+  overflow: hidden;
+  
+ 
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: rgba(2,2,2,1);
+  text-align: justify;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;  
+  background-color: #d3dacb;
+}
+.download{
+-webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+      z-index: 800;
+    position: absolute;
+    top: 250px;
+    left: 900px;
+  box-sizing: content-box;
+  border: none;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: black;
+  text-align: right;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+#scroll
+{  
+  position: absolute;
+  margin-top: 405px ;  
+  margin-left: 275px;
+  width: 480px;
+  height:530px;
+  overflow:auto;
+  
+}
+.mytableheader{
+	cursor: pointer;
+
+}
+.pager{
+	top: 380 !important;
+    position: absolute;
+    margin-left: 275px;
+}
+.total_report{
+	 position: absolute;
+  margin: 400px auto auto 245px;
+}
+div.mesg3{
+	top: 400px;
+	text-align: center;	
+	left:0px;
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size:16;
+	position: absolute;
+	margin: auto auto auto 370;
+}
